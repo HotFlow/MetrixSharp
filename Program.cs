@@ -14,8 +14,8 @@ namespace MetrixSharp
     {
         static void Main(string[] args)
         {
-            Game.PrintChat(Color.Gray + "MetrixScript Actived");
-            Game.PrintChat(Color.Gray + "Champion: " + Color.Green + Player.Champion.ChampionName);
+            Metrix.PrintChat(Color.Gray + "MetrixScript Actived");
+            Metrix.PrintChat(Color.Gray + "Champion: " + Color.Green + Player.Champion.ChampionName);
         }
 
         static void GenerateMenu()

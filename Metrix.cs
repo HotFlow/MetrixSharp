@@ -10,7 +10,7 @@ namespace MetrixSharp
 {
     public class Metrix
     {
-        private static readonly String prefix = "<font color = '#4876FF' > MetrixSharp:</ font>";
+        private static readonly String prefix = "<font color = '#4876FF' > MetrixSharp:</font>";
 
         public static void PrintChat(String format)
         {

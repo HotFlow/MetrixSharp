@@ -4,13 +4,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MetrixSharp
+namespace MetrixSharp.Entities.Abilities
 {
-    class Program
+    public enum Slot
     {
-        static void Main(string[] args)
-        {
-            Metrix.Initializ();
-        }
+        Passive,
+        Q,
+        W,
+        E,
+        R
     }
 }

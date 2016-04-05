@@ -4,13 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MetrixSharp
+namespace MetrixSharp.Entities.Abilities
 {
-    class Program
+    public enum ArchetType
     {
-        static void Main(string[] args)
-        {
-            Metrix.Initializ();
-        }
+        Basic,
+        Innate,
+        Ultimate
     }
 }

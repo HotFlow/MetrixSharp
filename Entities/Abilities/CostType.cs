@@ -4,9 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MetrixSharp.Entities.Champions.Abilities
+namespace MetrixSharp.Entities.Abilities
 {
-    public enum AbilityType
+    public enum CostType
     {
+        Health,
+        Mana,
+        Energy,
+        Bullet
     }
 }

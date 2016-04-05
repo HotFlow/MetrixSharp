@@ -4,9 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MetrixSharp.Entities.Champions.Abilities.Buffs
+namespace MetrixSharp.Entities.Abilities.Attributes
 {
-    public interface Buff
+    public enum SpellAttribute
     {
+
     }
 }

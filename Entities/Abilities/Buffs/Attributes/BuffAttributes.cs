@@ -4,13 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MetrixSharp
+namespace MetrixSharp.Entities.Abilities.Buffs.Attributes
 {
-    class Program
+    public enum BuffAttributes
     {
-        static void Main(string[] args)
-        {
-            Metrix.Initializ();
-        }
     }
 }

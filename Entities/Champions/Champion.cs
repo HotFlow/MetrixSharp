@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MetrixSharp.Entities.Abilities;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -6,9 +7,14 @@ using System.Threading.Tasks;
 
 namespace MetrixSharp.Entities.Champions
 {
-    public interface Champion
+    public interface Champion : Entity
     {
+        ChampionType GetChampionClass();
 
-        ChampionType getChampionClass();
+        ChampionAdvancedAttribute[] GetChampionAdvancedAttributes();
+
+        ChampionSecondaryAttribute[] GetChampionSecondaryAttribute();
+
+        Ability[] GetAbilities();
     }
 }

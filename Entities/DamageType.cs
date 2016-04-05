@@ -4,9 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MetrixSharp.Entities.Champions.Abilities.Buffs.Attributes
+namespace MetrixSharp.Entities
 {
-    public enum BuffAttributes
+    public enum DamageType
     {
+        MagicDamage,
+        PhysicDamage,
+        TrueDamage
     }
 }

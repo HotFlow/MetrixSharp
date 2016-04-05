@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MetrixScript.Cores
+namespace MetrixSharp.Cores
 {
     public static class Player
     {

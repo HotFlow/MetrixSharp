@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MetrixScript.Entities.Champions.Abilities.Attributes
+namespace MetrixSharp.Entities.Champions.Abilities.Attributes
 {
     public enum SpellAttribute
     {

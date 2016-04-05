@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MetrixScript.Entities.Champions.Abilities.Buffs.Attributes
+namespace MetrixSharp.Entities.Champions.Abilities.Buffs.Attributes
 {
     public enum BuffAttributes
     {

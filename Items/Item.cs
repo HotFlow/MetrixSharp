@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MetrixScript.Items
+namespace MetrixSharp.Items
 {
     class Item
     {

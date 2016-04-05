@@ -16,6 +16,7 @@ namespace MetrixSharp
         {
             Metrix.PrintChat("Actived");
             Metrix.PrintChat("Champion: " + Player.Champion.ChampionName);
+            GenerateMenu();
         }
 
         static void GenerateMenu()
